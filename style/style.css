@@ -43,3 +43,39 @@
     background: rgba(11, 2, 35, 0.1);
     padding: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .nav-container{
+        width: 100%;
+        height: fit-content;
+    }
+    .nav-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-right{
+        margin-top: 30px;
+    }
+    .nav-left{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .btn-prymary{
+        margin-top: 20px;
+    }
+    .btn-follow{
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+}
