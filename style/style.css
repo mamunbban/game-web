@@ -43,6 +43,65 @@
     background: rgba(11, 2, 35, 0.1);
     padding: 15px;
 }
+.banner-container{
+    background: url(../images/Group\ 14.png);
+    background-size: 901px;
+    background-repeat: no-repeat;
+}
+
+.banner-main{
+    display: flex;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: 30px;
+    
+}
+
+.banner-content{
+    width: 50%;
+}
+.banner-text{
+    width: 365px;
+    height: 404px;
+    margin-top: 50px;
+}
+.goat{
+    font-size: 95px;
+    font-weight: 900;
+    color: rgba(255, 66, 164, 0.863);
+    
+    
+    
+}
+.banner-content p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 17px;
+}
+.btn-signin{
+    width: 156px;
+    height: 65px;
+    background: rgb(255, 66, 165);
+    border: none;
+    border-radius: 48px;
+    font-size: 20px;
+}
+.btn-go{
+    width: 185px;
+    height: 65px;
+    border-radius: 48px;
+    background: rgb(78, 197, 247);
+    border: none;
+    margin-top: 32px;
+}
+.banner-img{
+    width: 50%;
+    
+    
+}
+.banner-img img{
+    width: 100%;
+}
 
 
 
@@ -53,7 +112,7 @@
 
 
 
-
+/* Media Query start */
 @media screen and (max-width: 576px) {
     .nav-container{
         width: 100%;
@@ -78,4 +137,17 @@
         margin-top: 40px;
         margin-bottom: 20px;
     }
+    .banner-container{
+        background: fixed;
+    }
+    
+    .banner-main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+
+
 }
